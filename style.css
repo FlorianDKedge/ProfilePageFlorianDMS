@@ -1,0 +1,80 @@
+/* Write some CSS below */
+body { 
+    background: rgb(0,86,239);
+    background: linear-gradient(90deg, rgba(0,86,239,1) 10%, rgba(0,72,222,1) 50%, rgba(18,33,130,1) 100%);
+    font-size: 18px;
+    font-family: "Merriweather", serif ;
+    text-align: center;
+  }
+
+  h1, h2 {
+   font-weight: 500;
+  }
+
+  h1 { 
+   font-size: 30px;
+   color: #454545;
+  }
+
+  h2 {
+   font-size: 24px;
+   color: #2E50E7 ;
+   margin-top : -20px
+  }
+
+  .p-profile{
+   padding: 20px; 
+  }
+
+  a {
+    text-decoration: none;
+    color: white ;
+    background-color: #2E50E7;
+    border-radius: 5px;
+    padding: 15px 25px;
+  }
+
+  a:hover {
+    background-color: #5875EC;
+  }
+
+  .card-white {
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    margin: 40px auto;
+    border-radius: 5px;
+    width: 600px;
+    transition: 0.5s;
+  }
+
+  .effect:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+  }
+
+  .img-profile {
+    border-radius: 50%;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+
+  ul{
+    list-style-type:none;
+    padding:0;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .cards-blue{
+    padding : 20px;
+    background-color: #2E50E7;
+    border-radius : 10px;
+    color : white;
+  }
